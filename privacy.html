@@ -2,26 +2,148 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --border: #e5e7eb;
+      --shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+      --radius: 16px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .page {
+      min-height: 100vh;
+      padding: 48px 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 820px;
+      background: var(--card);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+      padding: 40px;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      margin: 0 0 12px;
+      color: var(--accent);
+    }
+
+    header p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    section {
+      margin-bottom: 28px;
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.25rem;
+    }
+
+    p {
+      margin: 0;
+      color: var(--text);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover,
+    a:focus {
+      text-decoration: underline;
+    }
+
+    .note {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      color: #1e3a8a;
+      padding: 14px 16px;
+      border-radius: 12px;
+      font-size: 0.95rem;
+      margin-top: 12px;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 28px 22px;
+      }
+
+      header h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
+  <main class="page">
+    <div class="card">
+      <header>
+        <h1>Privacy Policy</h1>
+        <p>This application helps small service businesses manage appointment bookings through WhatsApp.</p>
+      </header>
 
-  <p>This application helps small service businesses manage appointment bookings through WhatsApp.</p>
+      <section>
+        <h2>Data We Collect</h2>
+        <p>We may process the customer's WhatsApp phone number, name, selected service, selected day and selected time.</p>
+      </section>
 
-  <h2>Data We Collect</h2>
-  <p>We may process the customer's WhatsApp phone number, name, selected service, selected day and selected time.</p>
+      <section>
+        <h2>How We Use the Data</h2>
+        <p>The data is used only to process and manage appointment bookings.</p>
+      </section>
 
-  <h2>How We Use the Data</h2>
-  <p>The data is used only to process and manage appointment bookings.</p>
+      <section>
+        <h2>Data Sharing</h2>
+        <p>We do not sell personal data. Data may be processed through Meta / WhatsApp Business Platform as part of the messaging service.</p>
+      </section>
 
-  <h2>Data Sharing</h2>
-  <p>We do not sell personal data. Data may be processed through Meta / WhatsApp Business Platform as part of the messaging service.</p>
+      <section>
+        <h2>Data Deletion</h2>
+        <p>Users can request deletion of their appointment data by contacting us.</p>
+        <div class="note">We handle deletion requests promptly and confirm once the data is removed.</div>
+      </section>
 
-  <h2>Data Deletion</h2>
-  <p>Users can request deletion of their appointment data by contacting us.</p>
-
-  <h2>Contact</h2>
-  <p>Email: andrija.jovanovic1998@gmail.com</p>
+      <section>
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:andrija.jovanovic1998@gmail.com">andrija.jovanovic1998@gmail.com</a></p>
+      </section>
+    </div>
+  </main>
 </body>
 </html>
