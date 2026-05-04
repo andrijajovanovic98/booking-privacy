@@ -15,6 +15,9 @@
       --border: #e5e7eb;
       --shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
       --radius: 16px;
+      --note-bg: #eff6ff;
+      --note-border: #bfdbfe;
+      --note-text: #1e3a8a;
     }
 
     * {
@@ -23,7 +26,7 @@
 
     body {
       margin: 0;
-      font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       background: var(--bg);
       color: var(--text);
       line-height: 1.6;
@@ -90,9 +93,9 @@
     }
 
     .note {
-      background: #eff6ff;
-      border: 1px solid #bfdbfe;
-      color: #1e3a8a;
+      background: var(--note-bg);
+      border: 1px solid var(--note-border);
+      color: var(--note-text);
       padding: 14px 16px;
       border-radius: 12px;
       font-size: 0.95rem;
